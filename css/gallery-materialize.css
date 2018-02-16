@@ -3998,8 +3998,8 @@ nav ul a span.badge {
 }
 
 nav {
-  color: #fff;
-  background-color: #ba68c8;
+  color: black
+   background-image: url("playstation-pattern.png");
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -4020,7 +4020,7 @@ nav.nav-extended .nav-content {
 }
 
 nav a {
-  color: #fff;
+  color: black;
 }
 
 nav i,
@@ -4058,7 +4058,7 @@ nav .button-collapse i {
 
 nav .brand-logo {
   position: absolute;
-  color: #fff;
+  color: black;
   display: inline-block;
   font-size: 2.1rem;
   padding: 0;
@@ -4126,7 +4126,7 @@ nav ul li.active {
 nav ul a {
   transition: background-color .3s;
   font-size: 1rem;
-  color: #fff;
+  color: black;
   display: block;
   padding: 0 15px;
   cursor: pointer;
@@ -4252,7 +4252,6 @@ html {
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
-  color: rgba(0, 0, 0, 0.87);
 }
 
 @media only screen and (min-width: 0) {
@@ -8582,7 +8581,7 @@ body {
 }
 
 body {
-  background-color: #f4f4f4;
+   background-image: url("playstation-pattern.png");
   font-family: "Lato", sans-serif;
 }
 
@@ -8663,7 +8662,7 @@ nav ul:not(.indicators) li.active::before {
   right: 0;
   bottom: 0;
   height: 2px;
-  background-color: #fff;
+  background-color: black;
 }
 
 nav .nav-background {
@@ -8724,7 +8723,7 @@ nav .nav-header h1 {
 nav .nav-header .tagline {
   display: block;
   margin: -40px 0 40px 0;
-  color: rgba(255, 255, 255, 0.8);
+  color: black;
 }
 
 nav .categories-wrapper {
@@ -8733,7 +8732,7 @@ nav .categories-wrapper {
 }
 
 nav .categories-wrapper .categories-container {
-  background-color: inherit;
+   background-image: url("playstation-pattern.png");
   white-space: nowrap;
   overflow: auto;
 }
