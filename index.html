@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Robert Angus's Portfolio</title>
+
+    <!-- Lato Font -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Stylesheet -->
+    <link href="css/gallery-materialize.css" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Navbar and Header -->
+    <nav class="nav-extended">
+      <div class="nav-background">
+        <div class="pattern active" style="background-image: url('https://www.luminate.digital/blog/4-signs-its-time-for-a-website-redesign');"></div>
+      </div>
+      <div class="nav-wrapper container">
+        <a href="index.html" class="brand-logo"><i class="material-icons">home</i>Robert Angus</a>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li class="active"><a href="index.html">Gallery</a></li>
+<!--           <li><a href="blog.html">Contact Me</a></li>
+ --><!--           <li><a href="docs.html">Docs</a></li>
+ --><!--           <li><a class='dropdown-button' href='#' data-activates='feature-dropdown' data-belowOrigin="true" data-constrainWidth="false">Features<i class="material-icons right">arrow_drop_down</i></a></li>
+ -->        </ul>
+        <!-- Dropdown Structure -->
+   <!--      <ul id='feature-dropdown' class='dropdown-content'>
+          <li><a href="full-header.html">Fullscreen Header</a></li>
+          <li><a href="horizontal.html">Horizontal Style</a></li>
+          <li><a href="no-image.html">No Image Expand</a></li>
+        </ul> -->
+
+        <div class="nav-header center">
+          <h1>I MAKE THINGS</h1>
+          <div class="tagline">Portfolio</div>
+          <img src="me.jpg" class="w3-circle">
+        </div>
+      </div>
+
+      <!-- Fixed Masonry Filters -->
+      <div class="categories-wrapper purple lighten-1">
+        <div class="categories-container">
+          <ul class="categories container">
+            <li class="active"><a href="#all">Robert's Projects</a></li>
+            <li><a href="#polygon">Rutger's BootCamp Assignments</a></li>
+            <li><a href="#bigbang">Rutger's Projects</a></li>
+            <li><a href="#sacred">Lead Developer Projects</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <ul class="side-nav" id="nav-mobile">
+      <li class="active"><a href="index.html"><i class="material-icons">home</i>Gallery</a></li>
+      <li><a href="index-dark.html"><i class="material-icons">brightness_3</i>Dark Theme</a></li>
+      <li><a href="blog.html"><i class="material-icons">edit</i>Blog</a></li>
+      <li><a href="docs.html"><i class="material-icons">school</i>Docs</a></li>
+      <li><a href="full-header.html"><i class="material-icons">fullscreen</i>Fullscreen Header</a></li>
+      <li><a href="horizontal.html"><i class="material-icons">swap_horiz</i>Horizontal Style</a></li>
+      <li><a href="no-image.html"><i class="material-icons">texture</i>No Image Expand</a></li>
+    </ul>
+
+    <!-- Gallery -->
+    <div id="portfolio" class="section gray">
+      <div class="container">
+        <div class="gallery row">
+          <div class="col l4 m6 s12 gallery-item gallery-filter all">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <a class="gallery-cover gray" style="height: 300px;">
+                <img src="github.svg" alt="placeholder">
+              </a> 
+                <span class="card-title">Contact Me</span>
+                <p>Feel free to contact me through any of these social media applications or emails.</p>
+                
+              </div>
+              <div class="card-action">
+                <a href="mailto:rwa4791@gmail.com?subject=HelloRobert&cc=cc@example.com">Gmail</a>
+                <a href="www.linkedin.com/in/robert-angus">Linkedin</a>
+                <a href="www.github.com/rwa4791">Github</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter polygon">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray">
+                <img class="responsive-img" src="train.png" alt="placeholder">
+              </a>
+              <div class="gallery-header">
+                <span>Firebase Assignment - Train Scheduler</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3><a href= "https://rutgers-train-scheduler.herokuapp.com/">Train Scheduler</a></h3>
+                  <span class="price">Firebase Assignment</span>
+                </div>
+                <p class="description">
+For this assignment, I created a train schedule application that incorporated Firebase to host arrival and departure data. My app retrieved and manipulate this information with Moment.js. This website will provide up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.</p>
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter polygon">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray">
+                <img src="crystal.jpg" alt="placeholder">
+              </a>
+              <div class="gallery-header">
+                <span>Jquery Assignment - Crystal Collector Game</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3><a href = "https://rutgers-crystal-game.herokuapp.com/">Crystal Collector Game</a></h3>
+                  <span class="price">Jquery Assignment</span>
+                </div>
+                <p class="description">
+For this assignment, I created another fun and interactive game for web browsers. This time, the app dynamically update my HTML pages with the jQuery library. I also used CSS, HTML, and Boot Strap capabilities</p><!-- 
+                <p class="description">
+Ea salvia adipisicing vegan man bun. Flexitarian cupidatat skateboard flannel. Drinking vinegar marfa you probably haven't heard of them consequat post-ironic, shabby chic williamsburg raclette vaporware readymade selfies brunch. Venmo selvage biodiesel marfa. Tbh literally 3 wolf moon, proident elit raclette chambray consequat edison bulb four loko accusamus. Semiotics godard eiusmod, ex esse air plant quinoa vaporware selfies keytar. Actually yuccie ennui flannel single-origin coffee, williamsburg cardigan banjo forage pug distillery tumblr hexagon vinyl occaecat.</p> -->
+
+                <div class="carousel-wrapper">
+  <!--                 <div class="carousel">
+                    <a class="carousel-item" href="#one!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#two!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#three!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#four!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#five!"><img src="http://placehold.it/300x200"></a>
+                  </div> -->
+                </div>
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter bigbang">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray">
+                <img class="responsive-img" src="heart.jpg" alt="placeholder">
+              </a>
+              <div class="gallery-header">
+                <span>Volunteer Pulse</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3><a href = "https://volunteer-pulse.herokuapp.com/index.html"> Project 1</a></h3>
+                  <span class="price">HTML, CSS, JavaScript, Jquery, BootStrap Application</span>
+                </div>
+                <p class="description">
+Do you have a cause that you're passionate about? How do you want to get involved?<br>
+
+Volunteer Pulse is volunteering actualized.<br>
+
+Simply let us know what you're passionate about and we'll connect you to opportunities in your own backyard.
+Explore what other users are interested in and educate yourself on how to make the biggest impact for your cause.<br></p>
+                <p class="description">
+Volunteer Pulse was the first project within the Rutgers Bootcamp. We were tasked with building a front end application, that included: HTML, Javascript, CSS, Bootstrap, Jquery and Google Firebase. We were also tasked with learning a new library on our own, we tackled learning how to use Google's Firebase authentication</p>
+
+                <div class="carousel-wrapper">
+                  <div class="carousel">
+                    <a class="carousel-item" href="#one!"><img src="capture.png"></a>
+                    <a class="carousel-item" href="#two!"><img src="capture2.png"></a>
+                    <a class="carousel-item" href="#three!"><img src="capture3.png"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter polygon">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray">
+                <img src="giphy.jpg" alt="placeholder">
+              </a>
+              <div class="gallery-header">
+                <span>API Ajax Assignment GifTastic </span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3><a href = "https://rutgers-giphy.herokuapp.com/">GifTastic</a></h3>
+                  <span class="price">API Ajax Assignment</span>
+                </div>
+                <p class="description">
+In this assignment, I used the GIPHY API to make a dynamic web page that populates with gifs of your choice. To finish this task, I must called the GIPHY API and use JavaScript and jQuery to change the HTML of my site.</p>
+                <div class="carousel-wrapper">
+                  <!-- <div class="carousel">
+                    <a class="carousel-item" href="#one!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#two!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#three!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#four!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#five!"><img src="http://placehold.it/300x200"></a>
+                  </div> -->
+                </div>
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div>
+<!--           <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter polygon">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray">
+                <img src="http://placehold.it/350x260" alt="placeholder">
+              </a>
+              <div class="gallery-header">
+                <span>Ice</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3>Ice</h3>
+                  <span class="price">$14.99</span>
+                </div>
+                <p class="description">
+Literally venmo before they sold out, DIY heirloom forage polaroid offal yr pop-up selfies health goth. Typewriter scenester hammock truffaut meditation, squid before they sold out polaroid portland tousled taxidermy vice. Listicle butcher thundercats, taxidermy pitchfork next level roof party crucifix narwhal kinfolk you probably haven't heard of them portland small batch.</p>
+                <p class="description">
+Ea salvia adipisicing vegan man bun. Flexitarian cupidatat skateboard flannel. Drinking vinegar marfa you probably haven't heard of them consequat post-ironic, shabby chic williamsburg raclette vaporware readymade selfies brunch. Venmo selvage biodiesel marfa. Tbh literally 3 wolf moon, proident elit raclette chambray consequat edison bulb four loko accusamus. Semiotics godard eiusmod, ex esse air plant quinoa vaporware selfies keytar. Actually yuccie ennui flannel single-origin coffee, williamsburg cardigan banjo forage pug distillery tumblr hexagon vinyl occaecat.</p>
+
+                <div class="carousel-wrapper">
+                  <div class="carousel">
+                    <a class="carousel-item" href="#one!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#two!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#three!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#four!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#five!"><img src="http://placehold.it/300x200"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div> -->
+<!--           <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter polygon">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray">
+                <img src="http://placehold.it/350x290" alt="placeholder">
+              </a>
+              <div class="gallery-header">
+                <span>Cave</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3>Cave</h3>
+                  <span class="price">$4.99</span>
+                </div>
+                <p class="description">
+Literally venmo before they sold out, DIY heirloom forage polaroid offal yr pop-up selfies health goth. Typewriter scenester hammock truffaut meditation, squid before they sold out polaroid portland tousled taxidermy vice. Listicle butcher thundercats, taxidermy pitchfork next level roof party crucifix narwhal kinfolk you probably haven't heard of them portland small batch.</p>
+                <p class="description">
+Ea salvia adipisicing vegan man bun. Flexitarian cupidatat skateboard flannel. Drinking vinegar marfa you probably haven't heard of them consequat post-ironic, shabby chic williamsburg raclette vaporware readymade selfies brunch. Venmo selvage biodiesel marfa. Tbh literally 3 wolf moon, proident elit raclette chambray consequat edison bulb four loko accusamus. Semiotics godard eiusmod, ex esse air plant quinoa vaporware selfies keytar. Actually yuccie ennui flannel single-origin coffee, williamsburg cardigan banjo forage pug distillery tumblr hexagon vinyl occaecat.</p>
+
+                <div class="carousel-wrapper">
+                  <div class="carousel">
+                    <a class="carousel-item" href="#one!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#two!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#three!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#four!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#five!"><img src="http://placehold.it/300x200"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div>
+   -->        <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter polygon">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray">
+                <img src="click.png" alt="placeholder">
+              </a>
+              <div class="gallery-header">
+                <span>React Assignment</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3>Clicky Game</h3>
+                  <span class="price">React Assignment - Clicky Game</span>
+                </div>
+
+                <p class="description">
+                  For this assignment, I created a memory game with React. The assignment required me to break up my application's UI into components, manage component state, and respond to user events.
+                </p>
+
+
+                <div class="carousel-wrapper">
+                 <!--  <div class="carousel">
+                    <a class="carousel-item" href="#one!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#two!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#three!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#four!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#five!"><img src="http://placehold.it/300x200"></a>
+                  </div> -->
+                </div>
+
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter bigbang">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray">
+                <img class="responsive-img" src="http://placehold.it/350x300" alt="placeholder">
+              </a>
+              <div class="gallery-header">
+                <span>Sales Assistant</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3>Final Project</h3>
+                  <span class="price">Full Stack Application</span>
+                </div>
+                <p class="description">
+Literally venmo before they sold out, DIY heirloom forage polaroid offal yr pop-up selfies health goth. Typewriter scenester hammock truffaut meditation, squid before they sold out polaroid portland tousled taxidermy vice. Listicle butcher thundercats, taxidermy pitchfork next level roof party crucifix narwhal kinfolk you probably haven't heard of them portland small batch.</p>
+                <p class="description">
+Ea salvia adipisicing vegan man bun. Flexitarian cupidatat skateboard flannel. Drinking vinegar marfa you probably haven't heard of them consequat post-ironic, shabby chic williamsburg raclette vaporware readymade selfies brunch. Venmo selvage biodiesel marfa. Tbh literally 3 wolf moon, proident elit raclette chambray consequat edison bulb four loko accusamus. Semiotics godard eiusmod, ex esse air plant quinoa vaporware selfies keytar. Actually yuccie ennui flannel single-origin coffee, williamsburg cardigan banjo forage pug distillery tumblr hexagon vinyl occaecat.</p>
+
+                <div class="carousel-wrapper">
+                  <div class="carousel">
+                    <a class="carousel-item" href="#one!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#two!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#three!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#four!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#five!"><img src="http://placehold.it/300x200"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div>
+         <!--  <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter bigbang">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray">
+                <img class="responsive-img" src="http://placehold.it/350x280" alt="placeholder">
+              </a>
+              <div class="gallery-header">
+                <span>Big Bang 3</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3>Big Bang 3</h3>
+                  <span class="price">$18.99</span>
+                </div>
+                <p class="description">
+Literally venmo before they sold out, DIY heirloom forage polaroid offal yr pop-up selfies health goth. Typewriter scenester hammock truffaut meditation, squid before they sold out polaroid portland tousled taxidermy vice. Listicle butcher thundercats, taxidermy pitchfork next level roof party crucifix narwhal kinfolk you probably haven't heard of them portland small batch.</p>
+                <p class="description">
+Ea salvia adipisicing vegan man bun. Flexitarian cupidatat skateboard flannel. Drinking vinegar marfa you probably haven't heard of them consequat post-ironic, shabby chic williamsburg raclette vaporware readymade selfies brunch. Venmo selvage biodiesel marfa. Tbh literally 3 wolf moon, proident elit raclette chambray consequat edison bulb four loko accusamus. Semiotics godard eiusmod, ex esse air plant quinoa vaporware selfies keytar. Actually yuccie ennui flannel single-origin coffee, williamsburg cardigan banjo forage pug distillery tumblr hexagon vinyl occaecat.</p>
+
+                <div class="carousel-wrapper">
+                  <div class="carousel">
+                    <a class="carousel-item" href="#one!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#two!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#three!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#four!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#five!"><img src="http://placehold.it/300x200"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter sacred">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray">
+                <img class="responsive-img" src="banner.jpg" alt="placeholder">
+              </a>
+              <div class="gallery-header">
+                <span>Sean Murphy Art Auctions</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3><a href = "https://seanmurphyartauctions.com/index.html">Personal Bidding Site<a></h3>
+                  <span class="price"> HTML, CSS, JavaScript, Bootstrap, Jquery, Google Firebase</span>
+                </div>
+                <br>
+                <p class="description">
+                Sean Murphy Art Auctions is a personal site created for a professional artist. The objective of the website is to create a personal verison of eBay so the client can white label it to his liking.
+                <div class="carousel-wrapper">
+                  <div class="carousel">
+                    <a class="carousel-item" href="#one!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#two!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#three!"><img src="http://placehold.it/300x200"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div>
+
+       <!--    <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter sacred">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray">
+                <img class="responsive-img" src="http://placehold.it/350x260" alt="placeholder">
+              </a>
+              <div class="gallery-header">
+                <span>Triangle</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3>Triangle</h3>
+                  <span class="price">$10.99</span>
+                </div>
+                <p class="description">
+Literally venmo before they sold out, DIY heirloom forage polaroid offal yr pop-up selfies health goth. Typewriter scenester hammock truffaut meditation, squid before they sold out polaroid portland tousled taxidermy vice. Listicle butcher thundercats, taxidermy pitchfork next level roof party crucifix narwhal kinfolk you probably haven't heard of them portland small batch.</p>
+                <p class="description">
+Ea salvia adipisicing vegan man bun. Flexitarian cupidatat skateboard flannel. Drinking vinegar marfa you probably haven't heard of them consequat post-ironic, shabby chic williamsburg raclette vaporware readymade selfies brunch. Venmo selvage biodiesel marfa. Tbh literally 3 wolf moon, proident elit raclette chambray consequat edison bulb four loko accusamus. Semiotics godard eiusmod, ex esse air plant quinoa vaporware selfies keytar. Actually yuccie ennui flannel single-origin coffee, williamsburg cardigan banjo forage pug distillery tumblr hexagon vinyl occaecat.</p>
+
+                <div class="carousel-wrapper">
+                  <div class="carousel">
+                    <a class="carousel-item" href="#one!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#two!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#three!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#four!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#five!"><img src="http://placehold.it/300x200"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter sacred">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray">
+                <img class="responsive-img" src="http://placehold.it/350x300" alt="placeholder">
+              </a>
+              <div class="gallery-header">
+                <span>Hexagon</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3>Hexagon</h3>
+                  <span class="price">$10.99</span>
+                </div>
+                <p class="description">
+Literally venmo before they sold out, DIY heirloom forage polaroid offal yr pop-up selfies health goth. Typewriter scenester hammock truffaut meditation, squid before they sold out polaroid portland tousled taxidermy vice. Listicle butcher thundercats, taxidermy pitchfork next level roof party crucifix narwhal kinfolk you probably haven't heard of them portland small batch.</p>
+                <p class="description">
+Ea salvia adipisicing vegan man bun. Flexitarian cupidatat skateboard flannel. Drinking vinegar marfa you probably haven't heard of them consequat post-ironic, shabby chic williamsburg raclette vaporware readymade selfies brunch. Venmo selvage biodiesel marfa. Tbh literally 3 wolf moon, proident elit raclette chambray consequat edison bulb four loko accusamus. Semiotics godard eiusmod, ex esse air plant quinoa vaporware selfies keytar. Actually yuccie ennui flannel single-origin coffee, williamsburg cardigan banjo forage pug distillery tumblr hexagon vinyl occaecat.</p>
+
+                <div class="carousel-wrapper">
+                  <div class="carousel">
+                    <a class="carousel-item" href="#one!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#two!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#three!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#four!"><img src="http://placehold.it/300x200"></a>
+                    <a class="carousel-item" href="#five!"><img src="http://placehold.it/300x200"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+ </div> --><!-- /.container -->
+
+
+    <!-- Core Javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/materialize/0.98.0/js/materialize.min.js"></script>
+    <script src="js/color-thief.min.js"></script>
+    <script src="js/galleryExpand.js"></script>
+    <script src="js/init.js"></script>
+
+  </body>
+</html>
